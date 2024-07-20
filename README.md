@@ -1,5 +1,8 @@
-# simple_java_application_for_docker
-Simple java application integrated with docker
+## simple_java_application_for_docker
+A simple java application integrated with docker.
+
+The Dockerfile simply compiles the Main.java file placed in src, and then will execute the Main function when the container will start.
+To utilize this project, follow below steps:
 
 1. Build the docker image:
    ~~~
